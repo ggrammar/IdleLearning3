@@ -1,0 +1,13 @@
+TODO
+ - Figure out how to handle branches with a dummy feature. 
+
+
+DONE
+ - Install "Git Source Control Plugin"
+	- This appears to be installed by default
+ - Enable source control
+	- Found this not in GameMaker preferences, but under "Game Options" | "Main"
+ - Create a project in GitHub  to host the  project
+	- https://github.com/ggrammar/IdleLearning3
+ - Commit code to the project
+	-  https://github.com/ggrammar/IdleLearning3/commit/12b346b1a6cc5290389c4588b52e3106340a3604
