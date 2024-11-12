@@ -1,8 +1,4 @@
 TODO
- - Add a basic control bar:
-	- Button to increase power
-	- Button to increase speed
-	- Progress bar to show status of next rep
 
 
 DONE
@@ -18,3 +14,5 @@ DONE
 	- https://github.com/ggrammar/IdleLearning3/pull/1
  - Add a basic control bar:
 	- Progress bar to show status of next rep
+	- Button to increase power
+	- Button to increase speed
