@@ -8,15 +8,15 @@ draw_healthbar(
 	x, y, 
 	(x + sprite_width), (y + sprite_height),
 	((alarm_get(0) / (global.repSpeed * room_speed)) * 100),
+	c_green,
 	c_black,
-	c_green,
-	c_green,
+	c_black,
 	1,
 	true,
 	true
 )
 
-//  If t he alarm is not   running, reset it
+//  If the alarm is not running, reset it, increment score.
 if alarm_get(0) == -1  {
 	alarm_set(0, global.repSpeed * room_speed)
 	

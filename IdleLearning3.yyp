@@ -35,7 +35,6 @@
   "name":"IdleLearning3",
   "resources":[
     {"id":{"name":"fDefaultFont","path":"fonts/fDefaultFont/fDefaultFont.yy",},},
-    {"id":{"name":"oAlarmValue","path":"objects/oAlarmValue/oAlarmValue.yy",},},
     {"id":{"name":"oPowerIncrease","path":"objects/oPowerIncrease/oPowerIncrease.yy",},},
     {"id":{"name":"oProgressBar","path":"objects/oProgressBar/oProgressBar.yy",},},
     {"id":{"name":"oScoreDisplay","path":"objects/oScoreDisplay/oScoreDisplay.yy",},},
