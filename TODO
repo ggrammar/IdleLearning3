@@ -1,4 +1,10 @@
 TODO
+ - Implement "buy" system, so upgrades aren't free
+	- Display cost of next upgrade
+
+ - Add "working out" sprite
+	- Gets stronger at pre-set intervals
+	- "range of motion" tied to upgrade
 
 
 DONE
@@ -16,3 +22,5 @@ DONE
 	- Progress bar to show status of next rep
 	- Button to increase power
 	- Button to increase speed
+ - Add "working out" sprite
+	- "rep" animation tied to progress bar
