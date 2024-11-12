@@ -16,7 +16,8 @@ draw_healthbar(
 	true
 )
 
-//  If the alarm is not running, reset it, increment score.
+// If the alarm is not running, reset it, increment score.
+// -1 means that the alarm has completed.
 if alarm_get(0) == -1  {
 	alarm_set(0, global.repSpeed * room_speed)
 	

@@ -16,3 +16,5 @@ DONE
 	-  https://github.com/ggrammar/IdleLearning3/commit/12b346b1a6cc5290389c4588b52e3106340a3604
  - Figure out how to handle branches with a dummy feature. 
 	- https://github.com/ggrammar/IdleLearning3/pull/1
+ - Add a basic control bar:
+	- Progress bar to show status of next rep
