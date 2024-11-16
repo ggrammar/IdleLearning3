@@ -1,6 +1,4 @@
 TODO
- - Implement "buy" system, so upgrades aren't free
-	- Display cost of next upgrade
 
  - Add "working out" sprite
 	- Gets stronger at pre-set intervals
@@ -10,7 +8,7 @@ TODO
 	- Celebration on each order of magnitude
 	- Achievements?
 
- - Disable "speed" button at max
+ - Visually disable "speed" button at max
 
 
 DONE
@@ -31,4 +29,5 @@ DONE
  - Add "working out" sprite
 	- "rep" animation tied to progress bar
  - Add text to "power" and "speed" buttons
-
+ - Implement "buy" system, so upgrades aren't free
+	- Display cost of next upgrade
