@@ -1,7 +1,6 @@
 TODO
 
  - Add "working out" sprite
-	- Gets stronger at pre-set intervals
 	- "range of motion" tied to upgrade
 
  - Explicit goals for the game
@@ -10,6 +9,15 @@ TODO
 
  - Visually disable "speed" button at max
 
+ - Some way to save/load data
+	- Handle different platforms, or just web for now?
+	- Do I want to build for mobile? Probably not yet. 
+
+ - Generic function to update sprite animation across N frames
+
+ - Switch variable names from camelCase to snake_case
+
+ - Some sort of "debug" build that runs really quickly
 
 DONE
  - Install "Git Source Control Plugin"
@@ -28,6 +36,7 @@ DONE
 	- Button to increase speed
  - Add "working out" sprite
 	- "rep" animation tied to progress bar
+	- Gets stronger at pre-set intervals
  - Add text to "power" and "speed" buttons
  - Implement "buy" system, so upgrades aren't free
 	- Display cost of next upgrade
