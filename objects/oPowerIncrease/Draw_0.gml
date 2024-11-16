@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.repSpeed = 2 // seconds
-// global.alpha_value = 1
+draw_self()
+draw_text(x, y, "Increase Power")
+draw_text(x, y + 12, "Cost: Free")
