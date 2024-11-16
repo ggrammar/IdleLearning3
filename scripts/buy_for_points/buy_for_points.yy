@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"buy_for_points",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"buy_for_points",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

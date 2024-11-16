@@ -9,4 +9,4 @@ draw_text(x, y, "Increase Speed")
 // Default font size is 12 - so I think y + 12 is 
 // sensible for non-overlapping  text?
 // https://gamemaker.io/en/tutorials/how-to-make-buttons
-draw_text(x, y + 12, "Cost: Free")
+draw_text(x, y + 12, "Cost: " + string(global.repSpeedCost))
