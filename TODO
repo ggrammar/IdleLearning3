@@ -10,7 +10,7 @@ TODO
 	- Celebration on each order of magnitude
 	- Achievements?
 
- - Add text to "power" and "speed" buttons
+ - Disable "speed" button at max
 
 
 DONE
@@ -30,3 +30,5 @@ DONE
 	- Button to increase speed
  - Add "working out" sprite
 	- "rep" animation tied to progress bar
+ - Add text to "power" and "speed" buttons
+
