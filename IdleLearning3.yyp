@@ -41,6 +41,7 @@
     {"id":{"name":"oSpeedIncrease","path":"objects/oSpeedIncrease/oSpeedIncrease.yy",},},
     {"id":{"name":"oWeakling","path":"objects/oWeakling/oWeakling.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"buy_for_points","path":"scripts/buy_for_points/buy_for_points.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"sProgressBar","path":"sprites/sProgressBar/sProgressBar.yy",},},
