@@ -8,12 +8,13 @@ TODO
 
  - Visually disable "speed" button at max
 
+ - Watch a couple of GameMaker tutorials to get a sense of what's out there. 
+
  - Some way to save/load data
 	- Handle different platforms, or just web for now?
 	- Do I want to build for mobile? Probably not yet. 
-
+	- I probably don't need this until I have like more than an hour of content. 
  - Switch variable names from camelCase to snake_case
-
  - Some sort of "debug" build that has speed set very low so we can progress through the game quickly
 
 DONE
@@ -42,3 +43,4 @@ DONE
 	- Display cost of next upgrade
  - Explicit goals for the game
 	- Display something when you've run out of content
+ - Make the font bigger and better. 

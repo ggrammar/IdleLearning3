@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sWeakling_0",
+    "path":"sprites/sWeakling_0/sWeakling_0.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
