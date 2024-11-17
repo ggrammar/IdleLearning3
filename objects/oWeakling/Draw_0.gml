@@ -23,14 +23,15 @@ if instance_exists(_weakling_inst) {
 	// Make sure the sprite exists before loading it - if we attempt to load a non-
 	// existent sprite, the game halts. If we run out of sprites, the game will
 	// continue to use the last-set sprite, which should be the strongest. 
-	// TODO: There is an edge case where we _skip_ a sprite because we're gaining
-	// points too quickly. Maybe we can hardcode MAXIMUM_SPRITE or something to 
-	// ensure oWeakling always looks as buff as possible in the endgame. 
 	if sprite_exists(_weakling_sprite) {
 		oWeakling.sprite_index = _weakling_sprite
 	} else {
-		// If the sprite doesn't exist, we've run out of weakling sprites. This is
-		// as close as we have to a win condition right now. 
+		// If the sprite doesn't exist, we've run out of weakling sprites. Set the
+		// strongest sprite here. This also catches the edge case where we're gaining
+		// too many points, and we skip the last sprite - the default in this case
+		// should be to fall back to the buffest sprite. 
+		oWeakling.sprite_index = sWeakling_10
+		// This is also as close as we have to a win condition right now. 
 		draw_text(x, y, "MAXIMUM BULK ACHIEVED!!!")
 	}
 }
