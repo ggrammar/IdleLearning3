@@ -22,9 +22,10 @@ if instance_exists(_weakling_inst) {
 
 	// Make sure the sprite exists before loading it - if we attempt to load a non-
 	// existent sprite, the game halts. If we run out of sprites, the game will
-	// continue to use the last-set sprite, which should be the strongest. Although
-	// I suppose there's an edge case where we _skip_ a sprite because we're gaining
-	// too many points. 
+	// continue to use the last-set sprite, which should be the strongest. 
+	// TODO: There is an edge case where we _skip_ a sprite because we're gaining
+	// points too quickly. Maybe we can hardcode MAXIMUM_SPRITE or something to 
+	// ensure oWeakling always looks as buff as possible in the endgame. 
 	if sprite_exists(_weakling_sprite) {
 		oWeakling.sprite_index = _weakling_sprite
 	} else {
