@@ -51,6 +51,8 @@
     {"id":{"name":"sWeakling_2","path":"sprites/sWeakling_2/sWeakling_2.yy",},},
     {"id":{"name":"sWeakling_3","path":"sprites/sWeakling_3/sWeakling_3.yy",},},
     {"id":{"name":"sWeakling_4","path":"sprites/sWeakling_4/sWeakling_4.yy",},},
+    {"id":{"name":"sWeakling_5","path":"sprites/sWeakling_5/sWeakling_5.yy",},},
+    {"id":{"name":"sWeakling_6","path":"sprites/sWeakling_6/sWeakling_6.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
