@@ -27,6 +27,10 @@ if instance_exists(_weakling_inst) {
 	// too many points. 
 	if sprite_exists(_weakling_sprite) {
 		oWeakling.sprite_index = _weakling_sprite
+	} else {
+		// If the sprite doesn't exist, we've run out of weakling sprites. This is
+		// as close as we have to a win condition right now. 
+		draw_text(x, y, "MAXIMUM BULK ACHIEVED!!!")
 	}
 }
 

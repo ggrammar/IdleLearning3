@@ -1,8 +1,5 @@
 TODO
 
- - Add "working out" sprite
- 	- 6 frames of animation for each "level" of sWeakling
-
  - Explicit goals for the game
 	- Celebration on each order of magnitude
 	- Achievements?
@@ -36,7 +33,10 @@ DONE
 	- "rep" animation tied to progress bar
 	- Gets stronger at pre-set intervals
 	- "range of motion" tied to upgrade
+ 	- 6 frames of animation for each "level" of sWeakling
  - Generic function to update sprite animation across N frames
  - Add text to "power" and "speed" buttons
  - Implement "buy" system, so upgrades aren't free
 	- Display cost of next upgrade
+ - Explicit goals for the game
+	- Display something when you've run out of content
