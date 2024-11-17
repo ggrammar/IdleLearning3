@@ -21,5 +21,5 @@ draw_healthbar(
 if alarm_get(0) == -1  {
 	alarm_set(0, global.repSpeed * room_speed)
 	
-	global.gScore += global.repPower
+	global.gScore += (global.repPower * (global.repRangeOfMotion / 2))
 }

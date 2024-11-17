@@ -31,12 +31,10 @@ if instance_exists(_weakling_inst) {
 // progress bar instance ID
 var _inst = inst_61B8692F
 if instance_exists(_inst) {
-
-	var _range_of_motion = 3
 	// If sprite_get_number returns 2, our frames are 0 and 1. 	
 	// Pick the smaller value - total number of frames in the sprite, or total upgradeable
 	//  range of motion. 
-	var _number_of_frames = min(sprite_get_number(oWeakling.sprite_index), _range_of_motion)
+	var _number_of_frames = min(sprite_get_number(oWeakling.sprite_index), global.repRangeOfMotion)
 	
 	// In order to account for reversed frames, double the number of frames and
 	// subtract 2 (one for the beginning of the animation, one for the end). 
