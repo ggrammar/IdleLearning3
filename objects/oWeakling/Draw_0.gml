@@ -9,28 +9,34 @@
 // each time you make a big purchase, but I like seeing the progression
 // animation over and over again. 
 
-// Set the sprite based on  how many points we've earned. 
+// Set the sprite based on how many points we've earned. 
 var _weakling_inst = inst_2AAC1FE6
 if instance_exists(_weakling_inst) {
-	if global.gScore < 10 {
-		oWeakling.sprite_index = sWeakling_0
-	} else if global.gScore < 20 {
-		oWeakling.sprite_index = sWeakling_1
-	} else if global.gScore < 30 {
-		oWeakling.sprite_index = sWeakling_2
-	} else if global.gScore < 40 {
-		oWeakling.sprite_index = sWeakling_3
-	} else if global.gScore < 50 {
-		oWeakling.sprite_index = sWeakling_4
+	
+	// Every 10 points, we get a new sprite. 
+	var _weakling_sprite_index = floor(global.gScore / 10)
+	
+	// Load the sprite from the string representation of its name (sWeakling_0, etc). 
+	var _weakling_sprite_name = string_concat("sWeakling_", _weakling_sprite_index)	
+	var _weakling_sprite = asset_get_index(_weakling_sprite_name)
+
+	// Make sure the sprite exists before loading it - if we attempt to load a non-
+	// existent sprite, the game halts. If we run out of sprites, the game will
+	// continue to use the last-set sprite, which should be the strongest. Although
+	// I suppose there's an edge case where we _skip_ a sprite because we're gaining
+	// too many points. 
+	if sprite_exists(_weakling_sprite) {
+		oWeakling.sprite_index = _weakling_sprite
 	}
 }
 
-// Sync oWeakling's sprite animation frame with the progress bar. This allows
-// the animation to speed up as we purchase speed upgrades. 
-// TODO: How can we write this to account for possible range-of-motion upgrades?
+
 // progress bar instance ID
 var _inst = inst_61B8692F
 if instance_exists(_inst) {
+	// Sync oWeakling's sprite animation frame with the progress bar. This allows
+	// the animation to speed up as we purchase speed upgrades. 
+
 	// If sprite_get_number returns 2, our frames are 0 and 1. 	
 	// Pick the smaller value - total number of frames in the sprite, or total upgradeable
 	//  range of motion. 
