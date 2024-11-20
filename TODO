@@ -1,12 +1,19 @@
 TODO
 
+ - Prestige system, where you open up a gym or become a trainer
+	- Permanent bonus to...?
+
  - Explicit goals for the game
 	- Celebration on each order of magnitude
 	- Achievements?
 
  - Implement costs for range-of-motion system
 
- - Visually disable "speed" button at max
+
+ - Buttons
+ 	- Visually disable buttons when unavailable
+	- Nicer button images
+	- Buttons that react to being pressed
 
  - Watch a couple of GameMaker tutorials to get a sense of what's out there. 
 
