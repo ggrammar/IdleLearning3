@@ -4,3 +4,6 @@
 global.repSpeed = 2 // seconds
 global.repSpeedCost = 1
 // global.alpha_value = 1
+
+hovering = false
+clicked = false

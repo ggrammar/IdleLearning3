@@ -46,6 +46,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sBlankNumber","path":"sprites/sBlankNumber/sBlankNumber.yy",},},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
+    {"id":{"name":"sFancyButton","path":"sprites/sFancyButton/sFancyButton.yy",},},
     {"id":{"name":"sProgressBar","path":"sprites/sProgressBar/sProgressBar.yy",},},
     {"id":{"name":"sWeakling_0","path":"sprites/sWeakling_0/sWeakling_0.yy",},},
     {"id":{"name":"sWeakling_1","path":"sprites/sWeakling_1/sWeakling_1.yy",},},
