@@ -32,7 +32,14 @@ if instance_exists(_weakling_inst) {
 		// should be to fall back to the buffest sprite. 
 		oWeakling.sprite_index = sWeakling_10
 		// This is also as close as we have to a win condition right now. 
-		draw_text(x, y, "MAXIMUM BULK ACHIEVED!!!")
+		draw_text_transformed(
+			x, y - 60, "MAXIMUM BULK",
+			4, 4, 0
+		)
+		draw_text_transformed(
+			x, y, "ACHIEVED!!!",
+			4, 4, 0
+		)
 	}
 }
 
